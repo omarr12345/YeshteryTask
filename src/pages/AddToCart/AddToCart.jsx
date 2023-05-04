@@ -10,7 +10,7 @@ const currProduct = {
   sec_image: "/images/sec.jpg",
   third_image: "/images/third.jpg",
   forth_image: "/images/forth.jpg",
-  brand: "images/adidas-2805b77d93b649829a95d869558736a2.png",
+  brand: "/images/adidas-2805b77d93b649829a95d869558736a2.png",
 };
 
 function AddToCart() {
