@@ -1,0 +1,110 @@
+@import "../../index.scss";
+.first-nav {
+  background: $primary-color 0 0 no-repeat padding-box;
+  box-shadow: 0 0.92px 3px #00000080;
+  padding: 5px;
+  height: 100px !important;
+  width: 100% !important;
+}
+
+.nav-btn-style {
+  align-items: center;
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  // margin-right: 10px;
+  outline: none;
+  padding: 0;
+}
+
+.nav-icons {
+  color: $secondary-color;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.nav-ele-text {
+  color: white;
+  font-weight: 700;
+}
+
+.search-inp {
+  background: #fff 0 0 no-repeat padding-box;
+  border: 1px solid #00000026;
+  border-radius: 24px;
+  box-shadow: 0 0 5px #00000026;
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  width: 100% !important;
+  padding: 10px 16px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  width: 280px;
+}
+
+.search-inp svg {
+  fill: $primary-color;
+}
+
+.search-inp input {
+  border: none;
+  width: 100%;
+}
+
+.cart-count {
+  font-size: 12px;
+  position: absolute;
+  top: -14px;
+  left: 30px;
+  background-color: white;
+  border-radius: 140px;
+  padding: 2px;
+}
+
+@media (max-width: 1000px) and (min-width: 468px) {
+  .nav-ele-text {
+    display: none;
+  }
+  .search-inp {
+    display: none;
+  }
+
+  .search-inp svg {
+    height: 10px !important;
+    width: 10px !important;
+  }
+  .logo-img {
+    width: 100px;
+  }
+  .nav-icons {
+    font-size: 30px !important;
+  }
+  .cart-count {
+    left: 20px;
+  }
+}
+
+@media (max-width: 467px) {
+  .nav-ele-text {
+    display: none;
+  }
+  .search-inp {
+    display: none;
+  }
+
+  .search-inp svg {
+    height: 10px !important;
+    width: 10px !important;
+  }
+  .logo-img {
+    width: 100px;
+  }
+  .nav-icons {
+    font-size: 20px !important;
+  }
+  .cart-count {
+    left: 20px;
+  }
+}

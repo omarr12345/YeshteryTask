@@ -1,0 +1,27 @@
+$primary-color: #542e90;
+$secondary-color: #fff100;
+
+.app {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700 !important;
+}
+
+img {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $primary-color;
+  border-radius: 10px;
+}

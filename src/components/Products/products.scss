@@ -1,0 +1,29 @@
+@import "../../index.scss";
+
+.similar-products-title {
+  color: $primary-color !important;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 4px;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  color: #575756;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.cards-container {
+  overflow-y: auto;
+}
+
+@media (max-width: 468px) and (min-width: 220px) {
+  .similar-products h2 {
+    font-size: 18px;
+  }
+  .similar-products h3 {
+    font-size: 18px;
+  }
+}
