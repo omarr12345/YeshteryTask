@@ -29,10 +29,7 @@ const FirstNav = () => {
               </svg>
             </span>
 
-            <img
-              src="/public/images/brand-logo-yellow.svg"
-              className="logo-img"
-            />
+            <img src="/images/brand-logo-yellow.svg" className="logo-img" />
           </div>
 
           <div className="col-md-4 col-sm-2 col-1">
