@@ -6,11 +6,12 @@ const currProduct = {
   title: " Adidas Designed to Move Graphic Crop Top - Black",
   rate: "No Rating Yet",
   Price: "799egp",
-  first_image: "/src/images/first.jpg",
-  sec_image: "/src/images/sec.jpg",
-  third_image: "/src/images/third.jpg",
-  forth_image: "/src/images/forth.jpg",
-  brand: "/public/images/adidas-2805b77d93b649829a95d869558736a2.png",
+  first_image: "YeshteryTask/src/images/first.jpg",
+  sec_image: "YeshteryTask/src/images/sec.jpg",
+  third_image: "YeshteryTask/src/images/third.jpg",
+  forth_image: "YeshteryTask/src/images/forth.jpg",
+  brand:
+    "YeshteryTask/public/images/adidas-2805b77d93b649829a95d869558736a2.png",
 };
 
 function AddToCart() {
