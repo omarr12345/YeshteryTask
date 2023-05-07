@@ -5,7 +5,7 @@ import SimilarProducts from "../../components/Products/SimilarProducts";
 const currProduct = {
   title: " Adidas Designed to Move Graphic Crop Top - Black",
   rate: "No Rating Yet",
-  Price: "799egp",
+  Price: 799,
   first_image: "/images/first.jpg",
   sec_image: "/images/sec.jpg",
   third_image: "/images/third.jpg",

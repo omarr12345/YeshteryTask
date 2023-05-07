@@ -63,6 +63,18 @@
   padding: 2px;
 }
 
+.cart-content {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  // background-color: white !important;
+  height: 1312px;
+  width: 30%;
+  z-index: 100000;
+  background-color: $secondary-color;
+  color: $primary-color !important;
+}
+
 @media (max-width: 1000px) and (min-width: 468px) {
   .nav-ele-text {
     display: none;
@@ -83,6 +95,9 @@
   }
   .cart-count {
     left: 20px;
+  }
+  .cart-content{
+    width: 50%;
   }
 }
 
@@ -106,5 +121,8 @@
   }
   .cart-count {
     left: 20px;
+  }
+  .cart-content{
+    width: 80%;
   }
 }

@@ -5,6 +5,7 @@
   padding: 20px;
   margin: 10px;
   height: 400px;
+
 }
 
 .product-brand-img {
@@ -21,7 +22,8 @@
 }
 
 .prod-title {
-  height: 15%;
+  min-height: 15%;
+  height: auto;
 }
 @media (max-width: 468px) and (min-width: 220px) {
   .product-card {

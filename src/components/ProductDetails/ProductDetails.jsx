@@ -65,7 +65,13 @@ const ProductDetails = (props) => {
       <div className="quantity-actions ">
         <button
           className="add-to-cart-btn"
-          onClick={() => setCartQuantity(cartQua + quantity)}
+          onClick={() =>
+            setCartQuantity({
+              quantity: cartQua.quantity + quantity,
+              title: props.curr_product.title,
+              price: props.curr_product.Price * (cartQua.quantity + quantity),
+            })
+          }
         >
           Add To Cart
         </button>
