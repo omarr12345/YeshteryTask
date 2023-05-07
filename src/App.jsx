@@ -6,7 +6,6 @@ import CartContextProvider from "./context/CartContextProvider";
 import AddToCart from "./pages/AddToCart/AddToCart";
 function App() {
   // const [count, setCount] = useState(0)
-  console.log("");
   return (
     <>
       <div className="app">
